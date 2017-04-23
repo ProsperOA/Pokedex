@@ -14,6 +14,7 @@
 		FB39ED8B1EAD54A800D9FC47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB39ED891EAD54A800D9FC47 /* LaunchScreen.storyboard */; };
 		FB39ED931EAD573800D9FC47 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = FB39ED921EAD573800D9FC47 /* pokemon.csv */; };
 		FB39ED981EAD589100D9FC47 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB39ED971EAD589100D9FC47 /* Pokemon.swift */; };
+		FB45B0071EAD5FF80030EC99 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB45B0061EAD5FF80030EC99 /* PokeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FB39ED8C1EAD54A800D9FC47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB39ED921EAD573800D9FC47 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		FB39ED971EAD589100D9FC47 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		FB45B0061EAD5FF80030EC99 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		FB39ED951EAD586000D9FC47 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FB45B0061EAD5FF80030EC99 /* PokeCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB45B0071EAD5FF80030EC99 /* PokeCell.swift in Sources */,
 				FB39ED831EAD54A800D9FC47 /* MainVC.swift in Sources */,
 				FB39ED811EAD54A800D9FC47 /* AppDelegate.swift in Sources */,
 				FB39ED981EAD589100D9FC47 /* Pokemon.swift in Sources */,
@@ -336,6 +340,7 @@
 				FB39ED911EAD54A800D9FC47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
